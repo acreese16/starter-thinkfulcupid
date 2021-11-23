@@ -192,10 +192,7 @@ form input {
   }
 
 
-  form input {
-    display: flex;
-    justify-content: flex-end;
-  }
+  
 
   .form-row label {
     padding: 0 15px; 
@@ -208,12 +205,12 @@ form input {
   }
 
   .form-row label {
-    flex: 2; 
+    flex: 1; 
   }
 
   .join-container .picture img {
     margin: 0;
-    max-width: 1200px;
+    max-width: 900px;
     min-width: 500px;
   }
 
@@ -226,8 +223,7 @@ form input {
   }
 
   .about-container .wrapper img {
-    max-width: 800px;
-    min-width: 300px;
+    max-width: 900px;
   }
 
  .download-container {
