@@ -166,7 +166,7 @@ form input {
   header {
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 10px 0 10px 30px;
     text-align: justify;
   }
 
@@ -185,23 +185,19 @@ form input {
     padding: 20px;
   }
 
-  .wrapper {
+  .join-container .wrapper {
     display: flex;
     flex-direction: column;
     align-self: center;
   }
-
-
-  
 
   .form-row label {
     padding: 0 15px; 
   }
 
   .form-row input{
-    display: flex;
     justify-content: flex-start;
-    padding: 0 15px;
+    padding: 0 10px;
   }
 
   .form-row label {
@@ -215,6 +211,9 @@ form input {
   }
 
   .about-container .wrapper  {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     flex-direction: row;
   }
 
@@ -235,9 +234,21 @@ form input {
    max-width: 1200px;
  }
 
- 
  .blog-container .wrapper {
+   display: flex;
    flex-direction: row;
+   align-self: center;
+   flex-wrap: wrap;
+ }
+ 
+ .blog-block-1 {
+   min-width: 50%;
+   max-width: 50%;
+ }
+
+ .blog-block-2 {
+   min-width: 50%;
+   max-width: 50%;
  }
  
  /*
